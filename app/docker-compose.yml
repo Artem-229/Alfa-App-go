@@ -15,8 +15,8 @@ services:
     environment:
        DB_HOST: db
        DB_USER: user
-       DB_PASSWORD: password
-       DB_NAME: mydb
+       DB_PASSWORD: postgres
+       DB_NAME: database
     depends_on:
       - db
   frontend:
